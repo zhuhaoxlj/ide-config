@@ -1,0 +1,21 @@
+{
+	"request": [],
+	"sendHeader": [
+		{
+			"enable": true,
+			"name": "口袋",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "^http://wss\\.gkoudai\\.com/.*$",
+			"exclude": "",
+			"isFunction": false,
+			"action": {
+				"name": "user-agent",
+				"value": "DingTalk"
+			},
+			"group": "未分组"
+		}
+	],
+	"receiveHeader": [],
+	"receiveBody": []
+}
